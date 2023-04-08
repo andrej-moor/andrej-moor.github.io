@@ -1,0 +1,100 @@
+/* 
+grau = #8E8886
+haut = #E99E78
+hBraun = #975233
+braun = #64311C
+schwarz = #271813
+grGrau = #595647
+ */
+
+ /* Body */
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.9rem;
+  text-align: center;
+}
+h1 {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color: #975233;
+}
+
+a:hover {
+  color: #64301C;
+}
+nav {
+  padding: 20px;
+}
+
+nav a {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+nav a:hover, .current {
+  border-bottom: #adab9f 2px solid;
+}
+
+/*  About  */
+#about #me {
+  border-radius: 50%;
+  width: 160px;
+  margin: 50px 0;
+}
+
+#contact a {
+  margin: 25px;
+  font-size: 1.7rem;
+  color: rgb(76, 74, 82);
+}
+
+#contact a:hover {
+  color: #965f46;
+}
+
+#about p, #blog a {
+  width: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 1.15rem;
+  font-weight: 200;
+}
+
+#stack i {
+  margin: 25px;
+  font-size: 3rem;
+  color: rgb(76, 74, 82);
+}
+
+/* Footer */
+
+footer {
+border-top: rgb(225, 225, 228) 2px solid;
+width: 700px;
+margin: auto;
+}
+
+footer span {
+  color: red;
+  font-size: 0.9rem;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+footer span:hover {
+  font-size: 1.1rem;
+}
+
+/*  Stak  */
+
+#stack #icons {
+
+  padding-bottom: 20px;
+}
+/*  Blog */
+#blog #posts {
+  margin-bottom: 20px;
+}
